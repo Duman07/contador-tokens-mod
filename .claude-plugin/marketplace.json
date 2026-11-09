@@ -1,0 +1,11 @@
+{
+  "name": "contador-tokens",
+  "owner": { "name": "Duman07" },
+  "plugins": [
+    {
+      "name": "contador-tokens",
+      "source": "./contador-tokens",
+      "description": "Panel de tokens de Claude Code que sincroniza con la app de Android"
+    }
+  ]
+}

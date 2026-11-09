@@ -1,0 +1,26 @@
+{
+  "name": "contador-tokens",
+  "version": "0.3.0",
+  "description": "Panel con el conteo de tokens de la sesión: contexto, totales por turno, costo y límites; sincroniza con Supabase",
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "supabase_url": {
+      "type": "string",
+      "title": "Supabase: URL del proyecto",
+      "description": "Déjalo vacío para usar el servidor de la app.",
+      "default": ""
+    },
+    "supabase_anon_key": {
+      "type": "string",
+      "title": "Supabase: clave pública (publishable o anon)",
+      "description": "Déjalo vacío para usar el servidor de la app.",
+      "default": ""
+    },
+    "token_dispositivo": {
+      "type": "string",
+      "title": "Token de dispositivo",
+      "description": "Opcional: normalmente se obtiene con /tokens vincular CÓDIGO (empieza por ctk_).",
+      "default": ""
+    }
+  }
+}
